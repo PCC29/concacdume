@@ -1,0 +1,22 @@
+VERSION = 1,
+
+mods
+{
+	mod = SkillRecoveryJournal,
+	mod = PYZomboid_nude,
+	mod = ModTemplate,
+	mod = modoptions,
+	mod = TMC_TrueActions,
+	mod = tsarslib,
+	mod = TheStar,
+	mod = ReviveMP,
+	mod = Brita_2,
+	mod = TKS,
+	mod = Literacy,
+	mod = ProfessionFramework,
+	mod = ItemTweakerAPI,
+}
+
+maps
+{
+}
