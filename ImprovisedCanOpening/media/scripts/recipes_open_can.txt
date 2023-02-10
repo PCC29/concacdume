@@ -1,0 +1,252 @@
+module Base
+{
+    recipe Make Pot of Soup with Improvised Can Opener
+    {
+       CannedMushroomSoup,
+       keep [Recipe.GetItemTypes.ImprovisedCanOpener],
+       Pot,
+
+       Result:PotOfSoup,
+       Time:550.0,
+       Category:Cooking,
+       OnCreate:Recipe.OnCreate.ImprovisedOpenCan,
+       OnGiveXP:Recipe.OnGiveXP.Cooking3,
+       Sound:OpenCannedFood,
+    }
+
+    recipe Make Pot of Soup with Improvised Can Opener
+	{
+	   TinnedSoup,
+	   keep [Recipe.GetItemTypes.ImprovisedCanOpener],
+	   Pot,
+
+	   Result:PotOfSoup,
+	   Time:550.0,
+	   Category:Cooking,
+       OnCreate:Recipe.OnCreate.ImprovisedOpenCan,
+	   OnGiveXP:Recipe.OnGiveXP.Cooking3,
+       Sound:OpenCannedFood,
+	}
+
+    recipe Make Bowl of Beans with Improvised Can Opener
+	{
+	   TinnedBeans,
+	   keep [Recipe.GetItemTypes.ImprovisedCanOpener],
+	   Bowl,
+
+	   Result:BeanBowl,
+	   Time:550.0,
+	   Category:Cooking,
+       OnCreate:Recipe.OnCreate.ImprovisedOpenCanBeanBowl,
+	   OnGiveXP:Recipe.OnGiveXP.Cooking3,
+       Sound:OpenCannedFood,
+	}
+
+    recipe Improvise Open Canned Soup
+    {
+       TinnedSoup,
+       keep [Recipe.GetItemTypes.ImprovisedCanOpener],
+
+       Result:TinnedSoupOpen,
+       Time:500.0,
+       Category:Cooking,
+       OnCreate:Recipe.OnCreate.ImprovisedOpenCan,
+       OnGiveXP:Recipe.OnGiveXP.None,
+       Sound:OpenCannedFood,
+    }
+
+    recipe Improvise Open Canned Fruit Cocktail
+    {
+       CannedFruitCocktail,
+       keep [Recipe.GetItemTypes.ImprovisedCanOpener],
+
+       Result:CannedFruitCocktailOpen,
+       Time:500.0,
+       Category:Cooking,
+       OnCreate:Recipe.OnCreate.ImprovisedOpenCan,
+       OnGiveXP:Recipe.OnGiveXP.None,
+       Sound:OpenCannedFood,
+    }
+
+    recipe Improvise Open Canned Fruit Beverage
+    {
+       CannedFruitBeverage,
+       keep [Recipe.GetItemTypes.ImprovisedCanOpener],
+
+       Result:CannedFruitBeverageOpen,
+       Time:500.0,
+       Category:Cooking,
+       OnCreate:Recipe.OnCreate.ImprovisedOpenCan,
+       OnGiveXP:Recipe.OnGiveXP.None,
+       Sound:OpenCannedFood,
+    }
+
+    recipe Improvise Open Canned Peaches
+    {
+       CannedPeaches,
+       keep [Recipe.GetItemTypes.ImprovisedCanOpener],
+
+       Result:CannedPeachesOpen,
+       Time:500.0,
+       Category:Cooking,
+       OnCreate:Recipe.OnCreate.ImprovisedOpenCan,
+       OnGiveXP:Recipe.OnGiveXP.None,
+       Sound:OpenCannedFood,
+    }
+
+    recipe Improvise Open Canned Pineapple
+    {
+       CannedPineapple,
+       keep [Recipe.GetItemTypes.ImprovisedCanOpener],
+
+       Result:CannedPineappleOpen,
+       Time:500.0,
+       Category:Cooking,
+       OnCreate:Recipe.OnCreate.ImprovisedOpenCan,
+       OnGiveXP:Recipe.OnGiveXP.None,
+       Sound:OpenCannedFood,
+    }
+
+    recipe Improvise Open Canned Beans
+	{
+	   TinnedBeans,
+	   keep [Recipe.GetItemTypes.ImprovisedCanOpener],
+
+	   Result:OpenBeans,
+	   Time:500.0,
+	   Category:Cooking,
+       OnCreate:Recipe.OnCreate.ImprovisedOpenCan,
+	   OnGiveXP:Recipe.OnGiveXP.None,
+       Sound:OpenCannedFood,
+	}
+
+	recipe Improvise Open Dog Food
+	{
+	   Dogfood,
+	   keep [Recipe.GetItemTypes.ImprovisedCanOpener],
+
+	   Result:DogfoodOpen,
+	   Time:500.0,
+	   Category:Cooking,
+       OnCreate:Recipe.OnCreate.ImprovisedOpenCan,
+	   OnGiveXP:Recipe.OnGiveXP.None,
+       Sound:OpenCannedFood,
+	}
+
+	recipe Improvise Open Condensed Milk
+	{
+	   CannedMilk,
+	   keep [Recipe.GetItemTypes.ImprovisedCanOpener],
+
+	   Result:CannedMilkOpen,
+	   Time:500.0,
+	   Category:Cooking,
+       OnCreate:Recipe.OnCreate.ImprovisedOpenCan,
+	   OnGiveXP:Recipe.OnGiveXP.None,
+       Sound:OpenCannedFood,
+	}
+
+    recipe Improvise Open Canned Corn
+    {
+       CannedCorn,
+       keep [Recipe.GetItemTypes.ImprovisedCanOpener],
+
+       Result:CannedCornOpen,
+       Time:500.0,
+       Category:Cooking,
+       OnCreate:Recipe.OnCreate.ImprovisedOpenCan,
+       OnGiveXP:Recipe.OnGiveXP.None,
+       Sound:OpenCannedFood,
+    }
+
+    recipe Improvise Open Canned Bolognese
+    {
+       CannedBolognese,
+       keep [Recipe.GetItemTypes.ImprovisedCanOpener],
+
+       Result:CannedBologneseOpen,
+       Time:500.0,
+       Category:Cooking,
+       OnCreate:Recipe.OnCreate.ImprovisedOpenCan,
+       OnGiveXP:Recipe.OnGiveXP.None,
+       Sound:OpenCannedFood,
+    }
+
+    recipe Improvise Open Canned Chili
+    {
+       CannedChili,
+       keep [Recipe.GetItemTypes.ImprovisedCanOpener],
+
+       Result:CannedChiliOpen,
+       Time:500.0,
+       Category:Cooking,
+       OnCreate:Recipe.OnCreate.ImprovisedOpenCan,
+       OnGiveXP:Recipe.OnGiveXP.None,
+       Sound:OpenCannedFood,
+    }
+
+    recipe Improvise Open Canned Mushroom Soup
+    {
+       CannedMushroomSoup,
+       keep [Recipe.GetItemTypes.ImprovisedCanOpener],
+
+       Result:CannedMushroomSoupOpen,
+       Time:500.0,
+       Category:Cooking,
+       OnCreate:Recipe.OnCreate.ImprovisedOpenCan,
+       OnGiveXP:Recipe.OnGiveXP.None,
+       Sound:OpenCannedFood,
+    }
+
+    recipe Improvise Open Canned Peas
+    {
+       CannedPeas,
+       keep [Recipe.GetItemTypes.ImprovisedCanOpener],
+
+       Result:CannedPeasOpen,
+       Time:500.0,
+       Category:Cooking,
+       OnCreate:Recipe.OnCreate.ImprovisedOpenCan,
+       OnGiveXP:Recipe.OnGiveXP.None,
+       Sound:OpenCannedFood,
+    }
+
+    recipe Improvise Open Canned Potato
+    {
+       CannedPotato2,
+       keep [Recipe.GetItemTypes.ImprovisedCanOpener],
+
+       Result:CannedPotatoOpen,
+       Time:500.0,
+       Category:Cooking,
+       OnCreate:Recipe.OnCreate.ImprovisedOpenCan,
+       OnGiveXP:Recipe.OnGiveXP.None,
+       Sound:OpenCannedFood,
+    }
+
+    recipe Improvise Open Canned Tomato
+    {
+       CannedTomato2,
+       keep [Recipe.GetItemTypes.ImprovisedCanOpener],
+
+       Result:CannedTomatoOpen,
+       Time:500.0,
+       Category:Cooking,
+       OnCreate:Recipe.OnCreate.ImprovisedOpenCan,
+       OnGiveXP:Recipe.OnGiveXP.None,
+       Sound:OpenCannedFood,
+    }
+
+    recipe Improvise Open Canned Carrots
+    {
+       CannedCarrots2,
+       keep [Recipe.GetItemTypes.ImprovisedCanOpener],
+
+       Result:CannedCarrotsOpen,
+       Time:500.0,
+       Category:Cooking,
+       OnCreate:Recipe.OnCreate.ImprovisedOpenCan,
+       OnGiveXP:Recipe.OnGiveXP.None,
+       Sound:OpenCannedFood,
+    }
+}

@@ -1,0 +1,3 @@
+ItemName_ES = {
+    ItemName_Base.CannedPineappleOpen = "Lata de piña abierta",
+}

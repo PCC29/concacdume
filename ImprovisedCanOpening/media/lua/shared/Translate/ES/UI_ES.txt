@@ -1,0 +1,5 @@
+UI_EN = {
+    UI_speech_spill_low = "Derramé un poco de contenido de la lata",
+    UI_speech_spill_medium = "Derramé algo de contenido de la lata",
+    UI_speech_spill_high = "Derramé bastante contenido de la lata"
+}

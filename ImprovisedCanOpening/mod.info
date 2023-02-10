@@ -1,0 +1,7 @@
+name=Improvised Can Opening
+id=opencan
+description=Allows open cans with other tools: Hammer, Saw, Screwdriver, Dull Knife, Sharp Knife, Scissors, Fork, Spoon, Corkscrew, Hole Puncher. When improvised tool is used the required time increases and between 25 and 50 percent of the food is spilled.
+modversion=1.0
+icon=icon.png
+poster=poster1.png
+poster=poster2.png
